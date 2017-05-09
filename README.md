@@ -25,3 +25,10 @@ tomcat 8
 4. edit server.xml change ports to 80 & 443
 5. cd /opt/apache-tomcat-8.5.14/bin
 6. ./startup.sh 
+
+mysql-server
+
+1. yum install mysql-server
+2. service mysqld start
+3. mysql_secure_installation
+
