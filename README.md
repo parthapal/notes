@@ -33,6 +33,8 @@ mysql-server
 3. mysql_secure_installation
 
 mysql -u root -p
+
+
 mysql>create database gallery;
 mysql>grant all privileges on gallery.* to 'ryan'@'from_host' identified by "GanD1do"; 
 mysql>flush privileges;
