@@ -1,8 +1,16 @@
-Maven install Amazon Linux
+CI/CD Set up on Amazon Linux
+
+Step 1 : Java Set up  
+
+Step 2 : Maven install Amazon Linux
 
 sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
 sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 sudo yum install -y apache-maven
 mvn --version
+mvn -X
 
 Maven Home : /usr/share/apache-maven
+Repo : ~/.m2/repository
+
+Step3: yum install git -y
