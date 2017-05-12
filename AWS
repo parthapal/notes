@@ -14,3 +14,10 @@ Maven Home : /usr/share/apache-maven
 Repo : ~/.m2/repository
 
 Step3: yum install git -y
+
+Step4 : Install Jenkins
+wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+yum install jenkins -y
+service jenkins start
+chkconfig jenkins on
