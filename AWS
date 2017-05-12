@@ -23,6 +23,7 @@ service jenkins start
 chkconfig jenkins on
 
 Jenkins 2.46.2 installed
+jenkins home location : /var/lib/jenkins
 maven repo by default : /var/lib/jenkins/.m2/repository
 project download location : /var/lib/jenkins/workspace/<jobname>
 
