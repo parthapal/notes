@@ -33,3 +33,9 @@ readlink -f /usr/bin/javac
 jenkins and spring-boot
 http://stackoverflow.com/questions/28500066/how-to-deploy-springboot-maven-application-with-jenkins
 
+Copy file between EC2 instances
+Source EC2: sudo ssh-keygen
+type mykeyfile
+copy content of public key (*.pub file ) and append to to target ec2 ~/.ssh/authorized-keys 
+sudo scp -i mykeyfile -r srcdir/test.txt ec2-user@172.31.4.201:/home/ec2-user/targetdir/test3.txt
+(using private address works smoothly)
