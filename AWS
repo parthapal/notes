@@ -25,3 +25,6 @@ chkconfig jenkins on
 Jenkins 2.46.2 installed
 maven repo by default : /var/lib/jenkins/.m2/repository
 project download location : /var/lib/jenkins/workspace/<jobname>
+
+to know location of application,
+readlink -f /usr/bin/javac
