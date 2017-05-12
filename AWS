@@ -21,3 +21,5 @@ rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
 yum install jenkins -y
 service jenkins start
 chkconfig jenkins on
+
+Jenkins 2.46.2 installed
