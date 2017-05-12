@@ -29,3 +29,7 @@ project download location : /var/lib/jenkins/workspace/<jobname>
 
 to know location of application,
 readlink -f /usr/bin/javac
+
+jenkins and spring-boot
+http://stackoverflow.com/questions/28500066/how-to-deploy-springboot-maven-application-with-jenkins
+
