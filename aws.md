@@ -1,56 +1,52 @@
 # AWS Best Practices References
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 Collection of AWS best practises documents from AWS documentation
-  - White Papers
-  - Guides
-  - Blogs
-
+  
 
 ## White Papers
 
 
 | Pdf Document | Description |
 | ------ | ----------- |
-| [text](https://d1.awsstatic.com/whitepapers/amazon_emr_migration_guide.pdf) | Best practices and steps for migrating Apache Spark and Apache Hadoop workloads to AWS (June 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/AmazonS3BestPractices.pdf) | Best practices for optimizing the performance of Amazon S3 for your environment (June 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf) | Authoritative guidance for security when using AWS services (August 2016) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-tco-2-cost-management.pdf) | Provides an overview of many AWS cost management tools, as well as organizational best practices for creating a cost-conscious mindset (March 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/cost-optimization-leveraging-ec2-spot-instances.pdf) | Provides an overview of Amazon EC2 Spot Instances, as well as best practices for using them effectively (March 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/cost-optimization-transparency-accountability.pdf) | Discusses the tools, best practices, and tips that your organization can use to create a lean cost culture and maximize the benefits of the cloud (March 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/pci-dss-scoping-on-aws.pdf) | Best practices for identifying and minimizing your PCI DSS scope on AWS using appropriate segmentation controls (May 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf) | AWS Best Practices for DDoS Resiliency (July 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf) | AWS Key Management Service Best Practices (April 2017) |
-| [text](https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf) | Details for ensuring your serverless applications are architected according to best practices (November 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/architecture/AWS-IoT-Lens.pdf) | Details for ensuring your IoT applications are architected according to best practices  (November 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf) | Overview, techniques, and best practices for implementing a Blue/Green deployment strategy (August 2016) |
-| [text](https://d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf) | Recommendations and best practices for building your serverless applications on AWS (November 2017) |
-| [text](https://d1.awsstatic.com/whitepapers/Serverless_Streaming_Architecture_Best_Practices.pdf) | Explore three stream processing patterns using a serverless approach (June 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-infrastructure-event-readiness.pdf) | AWS guidelines and best practices for designing and provisioning cloud-based applications to handle planned scaling events (December 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/best-practices-for-running-oracle-database-on-aws.pdf) | Guidance and best practices for running Oracle databases on AWS (May 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/best-practices-for-deploying-microsoft-sql-server-on-aws.pdf) | Guidance and best practices for deploying Microsoft SQL Server on AWS (March 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/migration-best-practices-rdbms-to-dynamodb.pdf) | Best Practices for Migrating from RDBMS to Amazon DynamoDB (March 2015) |
-| [text](https://d1.awsstatic.com/whitepapers/Database/neo4j-graph-databases-aws.pdf) | An overview of the Neo4j NoSQL graph database and best practices for its implementation on the AWS Cloud (May 2017) |
-| [text](https://d1.awsstatic.com/whitepapers/establishing-enterprise-architecture.pdf) | AWS best practices and services that support enterprise architecture activities (March 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/adds-on-aws.pdf) | Best practices for designing Active Directory Domain Services (AD DS) architecture in Amazon Web Services (AWS), including AWS Managed Microsoft AD, Active Directory on Amazon Elastic Compute Cloud (Amazon EC2) instances, and hybrid scenarios (December 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/Designing_MQTT_Topics_for_AWS_IoT_Core.pdf) | Best practices for designing MQTT topics in AWS IoT Core and leveraging AWS IoT Core features with MQTT, including AWS IoT Shadow, AWS IoT Rules Engine, and AWS IoT Device Jobs (May 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-power-ml-at-scale.pdf) | Best practices for executing machine learning workflows at scale on AWS, with an overview of end-to-end considerations, challenges, and recommended solutions for architecting an infrastructure for machine learning use cases (May 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf) | Best practices for balancing machine learning project potential with the need for guardrails (February 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-tagging-best-practices.pdf) | Tagging Best Practices: Implement an Effective AWS Resource Tagging Strategy (December 2018) | 
-| [text](https://d1.awsstatic.com/whitepapers/RDS/Best-Practices-for-Migrating-MySQL-Databases-to-Amazon-Aurora.pdf) | Best Practices for Migrating MySQL Databases to Amazon Aurora (October 2016) |
-| [text](https://d1.awsstatic.com/whitepapers/Migration/aws-migration-whitepaper.pdf) | Learn methods and best practices for migrating your applications and IT assets to AWS (March 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/RDS/AWS_Database_Migration_Service_Best_Practices.pdf) | AWS Database Migration Service Best Practices (August 2016) |
-| [text](https://d1.awsstatic.com/whitepapers/Migration/migrating-applications-to-aws.pdf) | Migrating Applications to AWS: Guide and Best Practices (December 2016) |
-| [text](https://d1.awsstatic.com/whitepapers/Migration/amazon-aurora-migration-handbook.pdf) | Best practices for planning, executing, and troubleshooting database migrations to Amazon Aurora (May 2017) |
-| [text](https://d1.awsstatic.com/whitepapers/Security/cross-domain-solutions-on-aws.pdf) | Best practices for deploying a cross-domain solution using AWS services (December 2016) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-web-hosting-best-practices.pdf) | Web Application Hosting in the AWS Cloud: Best Practices (September 2017) |
-| [text](https://d1.awsstatic.com/whitepapers/Industries/Telco/real-time_communication_aws.pdf) | Best practices for designing highly available and scalable real-time communication (RTC) workloads on AWS (October 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-storage-gateway-file-gateway-for-hybrid-architectures.pdf) | Overview and best practices for building hybrid environments using AWS Storage Gateway in a file gateway configuration (March 2019) |
-| [text](https://d1.awsstatic.com/whitepapers/Storage/amazon_efs_choosing_between_different_performance_and_throughput.pdf) | Best practices for running network shared file systems on the AWS cloud platform (July 2018) |
-| [text](https://d1.awsstatic.com/whitepapers/Storage/data-lake-on-aws.pdf) | Options and best practices for building your Amazon S3-based data lake (July 2017) |
-| [text](https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf) | Best practices for implementing AWS KMS in your organization (April 2017) |
-| [text](https://d1.awsstatic.com/whitepapers/Security/amazon-efs-encrypted-filesystems.pdf) | Best practices for encrypting shared file systems on AWS using Amazon Elastic File System (Amazon EFS) (April 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/amazon_emr_migration_guide.pdf) | Best practices and steps for migrating Apache Spark and Apache Hadoop workloads to AWS (June 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/AmazonS3BestPractices.pdf) | Best practices for optimizing the performance of Amazon S3 for your environment (June 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf) | Authoritative guidance for security when using AWS services (August 2016) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-tco-2-cost-management.pdf) | Provides an overview of many AWS cost management tools, as well as organizational best practices for creating a cost-conscious mindset (March 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/cost-optimization-leveraging-ec2-spot-instances.pdf) | Provides an overview of Amazon EC2 Spot Instances, as well as best practices for using them effectively (March 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/cost-optimization-transparency-accountability.pdf) | Discusses the tools, best practices, and tips that your organization can use to create a lean cost culture and maximize the benefits of the cloud (March 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/pci-dss-scoping-on-aws.pdf) | Best practices for identifying and minimizing your PCI DSS scope on AWS using appropriate segmentation controls (May 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf) | AWS Best Practices for DDoS Resiliency (July 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf) | AWS Key Management Service Best Practices (April 2017) |
+| [pdf](https://d1.awsstatic.com/whitepapers/architecture/AWS-Serverless-Applications-Lens.pdf) | Details for ensuring your serverless applications are architected according to best practices (November 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/architecture/AWS-IoT-Lens.pdf) | Details for ensuring your IoT applications are architected according to best practices  (November 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf) | Overview, techniques, and best practices for implementing a Blue/Green deployment strategy (August 2016) |
+| [pdf](https://d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf) | Recommendations and best practices for building your serverless applications on AWS (November 2017) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Serverless_Streaming_Architecture_Best_Practices.pdf) | Explore three stream processing patterns using a serverless approach (June 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-infrastructure-event-readiness.pdf) | AWS guidelines and best practices for designing and provisioning cloud-based applications to handle planned scaling events (December 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/best-practices-for-running-oracle-database-on-aws.pdf) | Guidance and best practices for running Oracle databases on AWS (May 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/best-practices-for-deploying-microsoft-sql-server-on-aws.pdf) | Guidance and best practices for deploying Microsoft SQL Server on AWS (March 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/migration-best-practices-rdbms-to-dynamodb.pdf) | Best Practices for Migrating from RDBMS to Amazon DynamoDB (March 2015) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Database/neo4j-graph-databases-aws.pdf) | An overview of the Neo4j NoSQL graph database and best practices for its implementation on the AWS Cloud (May 2017) |
+| [pdf](https://d1.awsstatic.com/whitepapers/establishing-enterprise-architecture.pdf) | AWS best practices and services that support enterprise architecture activities (March 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/adds-on-aws.pdf) | Best practices for designing Active Directory Domain Services (AD DS) architecture in Amazon Web Services (AWS), including AWS Managed Microsoft AD, Active Directory on Amazon Elastic Compute Cloud (Amazon EC2) instances, and hybrid scenarios (December 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Designing_MQTT_Topics_for_AWS_IoT_Core.pdf) | Best practices for designing MQTT topics in AWS IoT Core and leveraging AWS IoT Core features with MQTT, including AWS IoT Shadow, AWS IoT Rules Engine, and AWS IoT Device Jobs (May 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-power-ml-at-scale.pdf) | Best practices for executing machine learning workflows at scale on AWS, with an overview of end-to-end considerations, challenges, and recommended solutions for architecting an infrastructure for machine learning use cases (May 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf) | Best practices for balancing machine learning project potential with the need for guardrails (February 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-tagging-best-practices.pdf) | Tagging Best Practices: Implement an Effective AWS Resource Tagging Strategy (December 2018) | 
+| [pdf](https://d1.awsstatic.com/whitepapers/RDS/Best-Practices-for-Migrating-MySQL-Databases-to-Amazon-Aurora.pdf) | Best Practices for Migrating MySQL Databases to Amazon Aurora (October 2016) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Migration/aws-migration-whitepaper.pdf) | Learn methods and best practices for migrating your applications and IT assets to AWS (March 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/RDS/AWS_Database_Migration_Service_Best_Practices.pdf) | AWS Database Migration Service Best Practices (August 2016) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Migration/migrating-applications-to-aws.pdf) | Migrating Applications to AWS: Guide and Best Practices (December 2016) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Migration/amazon-aurora-migration-handbook.pdf) | Best practices for planning, executing, and troubleshooting database migrations to Amazon Aurora (May 2017) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Security/cross-domain-solutions-on-aws.pdf) | Best practices for deploying a cross-domain solution using AWS services (December 2016) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-web-hosting-best-practices.pdf) | Web Application Hosting in the AWS Cloud: Best Practices (September 2017) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Industries/Telco/real-time_communication_aws.pdf) | Best practices for designing highly available and scalable real-time communication (RTC) workloads on AWS (October 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-storage-gateway-file-gateway-for-hybrid-architectures.pdf) | Overview and best practices for building hybrid environments using AWS Storage Gateway in a file gateway configuration (March 2019) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Storage/amazon_efs_choosing_between_different_performance_and_throughput.pdf) | Best practices for running network shared file systems on the AWS cloud platform (July 2018) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Storage/data-lake-on-aws.pdf) | Options and best practices for building your Amazon S3-based data lake (July 2017) |
+| [pdf](https://d1.awsstatic.com/whitepapers/aws-kms-best-practices.pdf) | Best practices for implementing AWS KMS in your organization (April 2017) |
+| [pdf](https://d1.awsstatic.com/whitepapers/Security/amazon-efs-encrypted-filesystems.pdf) | Best practices for encrypting shared file systems on AWS using Amazon Elastic File System (Amazon EFS) (April 2018) |
 
 
 ## Guides
@@ -74,7 +70,7 @@ Collection of AWS best practises documents from AWS documentation
 | [Best Practices for AWS](http://docs.aws.amazon.com/cloudhsm/latest/userguide/best-practices.html)[ ](http://docs.aws.amazon.com/cloudhsm/latest/userguide/best-practices.html)[CloudHSM](http://docs.aws.amazon.com/cloudhsm/latest/userguide/best-practices.html)[ - AWS ](http://docs.aws.amazon.com/cloudhsm/latest/userguide/best-practices.html)[CloudHSM](http://docs.aws.amazon.com/cloudhsm/latest/userguide/best-practices.html) | Get a high-level list of best practices for working with AWS CloudHSM. |
 | [AWS](http://docs.aws.amazon.com/opsworks/latest/userguide/best-practices.html)[ ](http://docs.aws.amazon.com/opsworks/latest/userguide/best-practices.html)[OpsWorks](http://docs.aws.amazon.com/opsworks/latest/userguide/best-practices.html)[ ](http://docs.aws.amazon.com/opsworks/latest/userguide/best-practices.html)[Stacks Best Practices - AWS](http://docs.aws.amazon.com/opsworks/latest/userguide/best-practices.html)[ ](http://docs.aws.amazon.com/opsworks/latest/userguide/best-practices.html)[OpsWorks](http://docs.aws.amazon.com/opsworks/latest/userguide/best-practices.html) | Follow these best practices to get the most out of AWS OpsWorks Stacks. |
 | [Amazon Redshift Best Practices for Designing Queries - Amazon Redshift](http://docs.aws.amazon.com/redshift/latest/dg/c_designing-queries-best-practices.html) | Amazon Redshift Best Practices for Designing Queries To maximize query performance, follow these recommendations when creating queries. Design tables according to best practice |
-| [Best Practices for Amazon](http://docs.aws.amazon.com/textract/latest/dg/textract-best-practices.html)[ ](http://docs.aws.amazon.com/textract/latest/dg/textract-best-practices.html)[Textract](http://docs.aws.amazon.com/textract/latest/dg/textract-best-practices.html)[ - Amazon ](http://docs.aws.amazon.com/textract/latest/dg/textract-best-practices.html)[Textract](http://docs.aws.amazon.com/textract/latest/dg/textract-best-practices.html) | Best Practices for Amazon Textract Amazon Textract uses machine learning to read documents as a person would. It extracts text, tables, and forms from documents. Use the following... |
+| [Best Practices for Amazon](http://docs.aws.amazon.com/pdfract/latest/dg/pdfract-best-practices.html)[ ](http://docs.aws.amazon.com/pdfract/latest/dg/pdfract-best-practices.html)[pdfract](http://docs.aws.amazon.com/pdfract/latest/dg/pdfract-best-practices.html)[ - Amazon ](http://docs.aws.amazon.com/pdfract/latest/dg/pdfract-best-practices.html)[pdfract](http://docs.aws.amazon.com/pdfract/latest/dg/pdfract-best-practices.html) | Best Practices for Amazon pdfract Amazon pdfract uses machine learning to read documents as a person would. It extracts pdf, tables, and forms from documents. Use the following... |
 | [Policy Best Practices for Amazon EMR - Amazon EMR](http://docs.aws.amazon.com/emr/latest/ManagementGuide/security_iam_emr-with-iam-policy-best-practices.html) | Policy Best Practices for Amazon EMR DO NOT EDIT these best practices Identity-based policies are very powerful. They determine whether someone can create, access, or delete... |
 | [Amazon Redshift Best Practices for Designing Tables - Amazon Redshift](http://docs.aws.amazon.com/redshift/latest/dg/c_designing-tables-best-practices.html) | Amazon Redshift Best Practices for Designing Tables As you plan your database, certain key table design decisions heavily influence overall query performance. These design choice |
 | [Amazon Redshift Best Practices for Loading Data - Amazon Redshift](http://docs.aws.amazon.com/redshift/latest/dg/c_loading-data-best-practices.html) | Amazon Redshift Best Practices for Loading Data Loading very large datasets can take a long time and consume a lot of computing resources. How your data is loaded can also affect... |
@@ -99,7 +95,7 @@ Collection of AWS best practises documents from AWS documentation
 | [Best practices - Jenkins on AWS](http://docs.aws.amazon.com/whitepapers/latest/jenkins-on-aws/best-practices.html) | Best practices The following are best practices for a traditional deployment. Security In its default configuration, Jenkins doesn&#39;t perform any security checks that could |
 | [Security Best Practices for Amazon S3 - Amazon Simple Storage Service](http://docs.aws.amazon.com/AmazonS3/latest/dev/security-best-practices.html) | Describes guidelines and best practices for addressing security issues in Amazon S3. |
 | [Best Practices for Generating Estimates - AWS Pricing Calculator](http://docs.aws.amazon.com/pricing-calculator/latest/userguide/estimate-best-practices.html) | Best Practices for Generating Estimates To get the most out of your estimates, you should have a good idea of your basic requirements. For example, if you&#39;re going to try |
-| [SMS Best Practices - Amazon Pinpoint](http://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-best-practices.html) | Best practices to implement when you use Amazon Pinpoint to send SMS text messages. |
+| [SMS Best Practices - Amazon Pinpoint](http://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-best-practices.html) | Best practices to implement when you use Amazon Pinpoint to send SMS pdf messages. |
 | [Tips and Best Practices - Amazon Pinpoint](http://docs.aws.amazon.com/pinpoint/latest/userguide/channels-email-best-practices.html) | Tips and Best Practices Even when you have your customers&#39; best interests in mind, you may still encounter situations that impact the deliverability of your messages. The... |
 | [Best Practices for Amazon SQS - Amazon Simple Queue Service](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-best-practices.html) | Guidelines to optimize your use of Amazon Simple Queue Service. |
 | [Pivot Table Best Practices - Amazon](http://docs.aws.amazon.com/quicksight/latest/user/pivot-table-best-practices.html)[ ](http://docs.aws.amazon.com/quicksight/latest/user/pivot-table-best-practices.html)[QuickSight](http://docs.aws.amazon.com/quicksight/latest/user/pivot-table-best-practices.html) | Understand best practices for designing and implementing pivot tables in Amazon QuickSight. |
@@ -114,12 +110,3 @@ Collection of AWS best practises documents from AWS documentation
 
 
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
