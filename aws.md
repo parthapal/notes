@@ -1,7 +1,7 @@
 # AWS Best Practices References
 
 
-Collection of AWS best practises documents from AWS documentation
+Collection of some AWS best practises from [AWS documentation site](https://docs.aws.amazon.com/) 
 
 
 ## Best Practices AWS White Papers
