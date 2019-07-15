@@ -4,9 +4,9 @@
 Collection of AWS best practises documents from AWS documentation
 
 
-##Best Practices AWS White Papers
+## Best Practices AWS White Papers
 
-####2019
+#### 2019
 
 * AWS Best Practices for DDoS Resiliency (July 2019)
   [ _download_](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
@@ -40,7 +40,7 @@ Collection of AWS best practises documents from AWS documentation
 - Best practices for balancing machine learning project potential with the need for guardrails (February 2019)
     [ _download_](https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf)
 
-####2018
+#### 2018
 
 - Best practices for designing Active Directory Domain Services (AD DS) architecture in Amazon Web Services (AWS), including AWS Managed Microsoft AD, Active Directory on Amazon Elastic Compute Cloud (Amazon EC2) instances, and hybrid scenarios (December 2018)
   [ _download_](https://d1.awsstatic.com/whitepapers/adds-on-aws.pdf)
@@ -88,7 +88,7 @@ Collection of AWS best practises documents from AWS documentation
   [ _download_](https://d1.awsstatic.com/whitepapers/cost-optimization-transparency-accountability.pdf)
 
 
-####2017
+#### 2017
 
 - Recommendations and best practices for building your serverless applications on AWS (November 2017)
   [ _download_](https://d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf)
@@ -115,7 +115,7 @@ Collection of AWS best practises documents from AWS documentation
 - Best practices for deploying a cross-domain solution using AWS services (December 2016)
     [ _download_](https://d1.awsstatic.com/whitepapers/Security/cross-domain-solutions-on-aws.pdf)
 
-####2016
+#### 2016
 
 - Migrating Applications to AWS: Guide and Best Practices (December 2016)
   [ _download_](https://d1.awsstatic.com/whitepapers/Migration/migrating-applications-to-aws.pdf)
@@ -132,7 +132,7 @@ Collection of AWS best practises documents from AWS documentation
 * Overview, techniques, and best practices for implementing a Blue/Green deployment strategy (August 2016)
     [ _download_](https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf)
 
-####2015
+#### 2015
 
 - Best Practices for Migrating from RDBMS to Amazon DynamoDB  (March 2015)
   [ _download_](https://d1.awsstatic.com/whitepapers/migration-best-practices-rdbms-to-dynamodb.pdf)
